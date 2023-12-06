@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "realtime-people-counting"
+version = "0.1.0"
+description = ""
+authors = ["Pármenas Haniel <parmenashp@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+schedule = "^1.2.1"
+numpy = "^1.26.2"
+argparse = "^1.4.0"
+imutils = "^0.5.4"
+opencv-python = "^4.8.1.78"
+scipy = "^1.11.4"
+dlib = { file = "dlib_wheel/dlib-19.24.1-cp311-cp311-win_amd64.whl" }
+
+[tool.black]
+line-length = 150
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
