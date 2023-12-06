@@ -18,3 +18,6 @@ poetry run python main.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt 
 ```
 
 ### Vídeo de exemplo
+
+https://github.com/parmenashp/ClientAlert/assets/42049025/8d26f677-815c-4dfd-968b-119da9d2cee8
+
